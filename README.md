@@ -50,7 +50,12 @@ Se muestra un conjunto de bloques que definen al sistema de referencia inercial 
 
 ![Análisis de la importación](https://media.discordapp.net/attachments/891388181361082421/908784590632661042/Imagen2.png?width=582&height=499)
 
+6. Lo siguiente es definir una función de entrada que determine el comportamiento de la Revolute2 en función de tiempo para ello es necesario usar un bloque de reloj (Clock), el cual se puede extraer al escribir “clock” sobre la ventana de Simulink. El parámetro de Decimation se deja en 10 segundos al igual que el tiempo de la simulación.
 
+![Se añade Clock](https://media.discordapp.net/attachments/891388181361082421/908785295900704788/unknown.png?width=959&height=498)
+
+
+7. Crear un bloque de función Matlab Function
 
 ## Conclusiones
 

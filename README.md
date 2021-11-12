@@ -23,6 +23,14 @@ Hacer que un robot móvil se mueva del punto A (0,0) al punto B (x,y) y en caso 
 
 ## Introducción
 
+## Desarrollo
+
+1. Ubicarse en la carpeta: yahboom-project
+2. Correr el siguiente comando
+``` shell
+smimport('yahboom_assembly.xml')
+```
+![Resultado de la importación](https://user-images.githubusercontent.com/42219451/141512070-854a7591-463a-4685-b10a-e9b06e2e3ac7.png)
 
 
 ## Conclusiones

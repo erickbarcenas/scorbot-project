@@ -62,6 +62,16 @@ Se muestra un conjunto de bloques que definen al sistema de referencia inercial 
 8. Dar doble clic sobre el bloque para crear la función en una pestaña del Editor, tomando como entrada del tiempo u y como función de salida y. En la definición de la función escribir el siguiente código:
 
 ``` shell
+function y = fcn(u)
+T = 10; % tiempo total de la simulación
+Posini = 0; % ángulo inicial de Revolute2
+Posfin = 0.1; %ángulo
+
+% Se crea la ecuación de movimiento
+% Falta añadir la ecuación
+result = Posini; % Es un ejemplo
+
+y = result;
 
 ```
 

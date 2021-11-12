@@ -30,7 +30,7 @@ Hacer que un robot móvil se mueva del punto A (0,0) al punto B (x,y) y en caso 
 yahboom-project
 ```
 
-2. Ejecutar el archivo:
+2. Ejecutar el archivo para generar los elementos de la simulación:
 ``` shell
 main  # main.m
 # O de lo contrario en Command Window ejecutar la siguiente línea de código

@@ -55,7 +55,15 @@ Se muestra un conjunto de bloques que definen al sistema de referencia inercial 
 ![Se añade Clock](https://media.discordapp.net/attachments/891388181361082421/908785295900704788/unknown.png?width=959&height=498)
 
 
-7. Crear un bloque de función Matlab Function
+7. Crear un bloque de función Matlab Function.
+
+![Se añade Clock](https://media.discordapp.net/attachments/891388181361082421/908786174146007040/unknown.png)
+
+8. Dar doble clic sobre el bloque para crear la función en una pestaña del Editor, tomando como entrada del tiempo u y como función de salida y. En la definición de la función escribir el siguiente código:
+
+``` shell
+
+```
 
 ## Conclusiones
 

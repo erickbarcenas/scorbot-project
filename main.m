@@ -1,0 +1,1 @@
+smimport('yahboom_assembly.xml')

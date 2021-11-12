@@ -36,10 +36,11 @@ main  # main.m
 # O de lo contrario en Command Window ejecutar la siguiente línea de código
 smimport('yahboom_assembly.xml')
 ```
-
+3. El resultado del paso anterio se ve a continuación:
 
 ![Resultado de la importación](https://media.discordapp.net/attachments/891388181361082421/908774882182058064/unknown.png?width=660&height=499)
 
+4. 
 
 ## Conclusiones
 

@@ -30,7 +30,7 @@ Hacer que un robot móvil se mueva del punto A (0,0) al punto B (x,y) y en caso 
 ``` shell
 smimport('yahboom_assembly.xml')
 ```
-![Resultado de la importación](https://user-images.githubusercontent.com/42219451/141512070-854a7591-463a-4685-b10a-e9b06e2e3ac7.png)
+![Resultado de la importación](https://media.discordapp.net/attachments/891388181361082421/908774882182058064/unknown.png?width=660&height=499)
 
 
 ## Conclusiones

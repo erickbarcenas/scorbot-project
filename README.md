@@ -40,7 +40,10 @@ smimport('yahboom_assembly.xml')
 
 ![Resultado de la importación](https://media.discordapp.net/attachments/891388181361082421/908774882182058064/unknown.png?width=660&height=499)
 
-4. 
+4. Salvamos el archivo generado
+![Resultado de la importación](https://media.discordapp.net/attachments/891388181361082421/908777852940476466/Imagen1.png?width=575&height=499)
+
+5. Analizamos la importación del paso no.2 
 
 ## Conclusiones
 

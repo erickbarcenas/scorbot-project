@@ -46,6 +46,12 @@ smimport('yahboom_assembly.xml')
 
 5. Analizamos la importación del paso no.2 
 
+Se muestra un conjunto de bloques que definen al sistema de referencia inercial y los bloques que relacionan a la base del arreglo con un eslabón unidos por una junta paralela, revoluta o cilíndrica.
+
+![Análisis de la importación](https://media.discordapp.net/attachments/891388181361082421/908784590632661042/Imagen2.png?width=582&height=499)
+
+
+
 ## Conclusiones
 
 

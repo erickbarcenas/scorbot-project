@@ -1,1 +1,1 @@
-smimport('yahboom_assembly.xml')
+smimport('scorbot_assembly.xml')

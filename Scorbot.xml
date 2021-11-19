@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="epm01" on="11/11/21||18:32:12" using="Simscape Multibody Link Version 7.0" from="Autodesk Inventor 2021.3 (Build 253353000, 353)"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="centimeter"/>
+<RootAssembly name="Scorbot.iam" uid="Scorbot.iam_{8CA5CE92-4A15-E9B0-4E18-40A40F660489}" version="{693D18ED-D48B-078A-4EA1-7D040CFE5B83}">
+<AssemblyFile name="Scorbot.iam" type="Inventor Assembly"/>
+<InstanceTree>
+<Instance name="Base:1" grounded="true" uid="Base:1" entityUid="Base.ipt_{4DB48909-460F-B737-7D26-97AC40A842AC}">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-4.454497327904674 6.6838449243901881 -9.75</Translation>
+</Transform>
+</Instance>
+<Instance name="Cintura:1" uid="Cintura:1" entityUid="Cintura.ipt_{E5EE0E65-44FC-9D45-B3ED-8DBE818816AE}">
+<Transform>
+<Rotation>0.99999999999999967 0 0 0 0 -0.99999999999999967 0 1 0</Rotation>
+<Translation>-13.670722892895103 11.300103377243394 11.75</Translation>
+</Transform>
+</Instance>
+<Instance name="Eslabon1:1" uid="Eslabon1:1" entityUid="Eslabon1.ipt_{54F1D12B-4C37-9790-92B0-149A98EAF21A}">
+<Transform>
+<Rotation>5.0063872653033898e-15 -0.99999999999999589 -1.9795999034901972e-16 -3.9486547500311306e-16 -2.5347114158027752e-16 0.999999999999998 -0.99999999999999822 -4.475844029668029e-15 -3.1917144844530051e-16</Rotation>
+<Translation>-2.2707228928955443 -7.1998966227565653 36.949999999999989</Translation>
+</Transform>
+</Instance>
+<Instance name="Eslabon2:1" uid="Eslabon2:1" entityUid="Eslabon2.ipt_{A0A173B1-403E-DCE0-612C-CC95C21C703D}">
+<Transform>
+<Rotation>-5.8737490032918044e-15 -0.99999999999999933 7.1143813923814103e-16 2.8764337057323802e-15 -3.2286008061933708e-16 -1.0000000000000002 0.99999999999999978 -5.8003709301383684e-15 2.8171732538519046e-15</Rotation>
+<Translation>-2.2707228928957397 -7.1998966227565022 58.949999999999967</Translation>
+</Transform>
+</Instance>
+<Instance name="Helico:1" uid="Helico:1" entityUid="Helico.ipt_{82657759-4F45-4611-5795-CEBE3F29F6BE}">
+<Transform>
+<Rotation>-0.16074255776176033 -0.98699636783739342 7.9968167821590163e-16 2.4024243359168943e-15 -1.7866709635788045e-15 -0.99999999999999933 0.98699636783739308 -0.16074255776176061 2.5801294872392031e-15</Rotation>
+<Translation>-2.2707228928958245 -8.1998966227560608 71.450000000000117</Translation>
+</Transform>
+</Instance>
+<Instance name="gripper_base:1" uid="gripper_base:1" entityUid="gripper_base.ipt_{AC577CA4-41E8-F086-0B1C-D2A2458F7231}">
+<Transform>
+<Rotation>0.14787177741813887 -0.9890065406473314 -4.4408920985006212e-16 0.98900654064732985 0.14787177741813815 2.9958677595919884e-15 -2.6439488435834177e-15 -1.2168006870259242e-15 1.0000000000000002</Rotation>
+<Translation>-1.6179086385696497 2.1191565697499799 67.07499999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="Dedo_2:1" uid="Dedo_2:1" entityUid="Dedo_2.ipt_{53D7C3B5-451B-90C2-D785-4491E298EDB1}">
+<Transform>
+<Rotation>-1.3877787807814617e-16 0 1.0000000000000004 -1.0000000000000022 1.0546824323171401e-14 0 -1.132173843044494e-14 -1.0000000000000016 0</Rotation>
+<Translation>-5.2207228928958358 4.3505031395179508 82.891819766859484</Translation>
+</Transform>
+</Instance>
+<Instance name="Dedo_2:2" uid="Dedo_2:2" entityUid="Dedo_2.ipt_{53D7C3B5-451B-90C2-D785-4491E298EDB1}">
+<Transform>
+<Rotation>-9.1593399531575927e-16 4.150314971322708e-16 -0.99999999999999833 0.99999999999999922 -4.358692402646461e-14 -4.7184478546570228e-16 -4.3866658061060253e-14 -0.99999999999999878 0</Rotation>
+<Translation>0.77927710710415798 -1.750296385029994 82.891819766859498</Translation>
+</Transform>
+</Instance>
+<Instance name="barra1:1" uid="barra1:1" entityUid="barra1.ipt_{12ADC5D3-41A5-EE01-6B68-2984D2F42D7E}">
+<Transform>
+<Rotation>0 -5.2735593669694679e-16 -1.0000000000000004 2.7645712961284115e-15 0.99999999999999989 -3.6082248300317321e-16 0.99999999999999967 -2.5203470144963129e-15 -8.124584232294922e-16</Rotation>
+<Translation>-1.4207228928958342 -2.6998966227560466 78.799999999999955</Translation>
+</Transform>
+</Instance>
+<Instance name="barra1:2" uid="barra1:2" entityUid="barra1.ipt_{12ADC5D3-41A5-EE01-6B68-2984D2F42D7E}">
+<Transform>
+<Rotation>4.4408920985006301e-16 0 0.99999999999999933 -2.6252950477550576e-15 1 4.7184478546568867e-16 -1.0000000000000013 -1.8305663417354584e-15 -3.1905622314470441e-16</Rotation>
+<Translation>-3.1207228928958344 -1.6998966227560459 78.79999999999994</Translation>
+</Transform>
+</Instance>
+<Instance name="barra1:3" uid="barra1:3" entityUid="barra1.ipt_{12ADC5D3-41A5-EE01-6B68-2984D2F42D7E}">
+<Transform>
+<Rotation>-4.440892098500635e-16 0 -1.0000000000000004 1.2798844353798434e-15 1.0000000000000011 0 1.000000000000002 -4.8799494299353876e-16 0</Rotation>
+<Translation>-1.4207228928958335 4.300103377243949 78.799999999999955</Translation>
+</Transform>
+</Instance>
+<Instance name="barra1:4" uid="barra1:4" entityUid="barra1.ipt_{12ADC5D3-41A5-EE01-6B68-2984D2F42D7E}">
+<Transform>
+<Rotation>-1.9966652895458132e-16 -1.3877787807814245e-16 -1.0000000000000011 2.7645712961284127e-15 0.99999999999999911 -3.6082248300317356e-16 0.99999999999999967 -3.3410744094711343e-15 -8.1245842322949259e-16</Rotation>
+<Translation>-1.4207228928958329 5.3001033772439525 78.799999999999912</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Insertar:1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>barra1:2</Uid>
+</InstancePath>
+<Position>2.9999999999999858 1.1102230246251565e-15 -4.4408920985006262e-16</Position>
+<Axis>-7.631454329947652e-16 -5.5511151231257985e-16 1.0000000000000007</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>gripper_base:1</Uid>
+</InstancePath>
+<Position>-3.9992924013850981 0.92156294327634924 8.7249999999999943</Position>
+<Axis>0.14787177741813792 -0.98900654064733051 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Insertar:1_Coincident">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>barra1:2</Uid>
+</InstancePath>
+<Position>2.9999999999999858 1.1102230246251565e-15 -4.4408920985006262e-16</Position>
+<Axis>-7.631454329947652e-16 -5.5511151231257985e-16 1.0000000000000007</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gripper_base:1</Uid>
+</InstancePath>
+<Position>-3.9992924013850981 0.92156294327634924 8.7249999999999943</Position>
+<Axis>0.14787177741813792 -0.98900654064733051 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Insertar:2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Dedo_2:2</Uid>
+</InstancePath>
+<Position>-0.94960023772599822 1.0918197668595582 3.9000000000000079</Position>
+<Axis>-4.4408920985005857e-16 0 1.0000000000000018</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>barra1:1</Uid>
+</InstancePath>
+<Position>3.0000000000000142 1.3322676295501878e-15 1.7</Position>
+<Axis>8.6495660538006044e-16 -1.6653345369377609e-16 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Insertar:2_Coincident">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Dedo_2:2</Uid>
+</InstancePath>
+<Position>-0.94960023772599822 1.0918197668595582 3.9000000000000079</Position>
+<Axis>-4.4408920985005857e-16 0 1.0000000000000018</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>barra1:1</Uid>
+</InstancePath>
+<Position>3.0000000000000142 1.3322676295501878e-15 1.7</Position>
+<Axis>8.6495660538006044e-16 -1.6653345369377609e-16 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Insertar:3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>barra1:3</Uid>
+</InstancePath>
+<Position>-3 8.8817841970012523e-16 1.6999999999999997</Position>
+<Axis>-3.9284712968725934e-16 1.1102230246251568e-16 0.99999999999999956</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>gripper_base:1</Uid>
+</InstancePath>
+<Position>1.9347468424988965 1.8087936077851805 8.7249999999999943</Position>
+<Axis>0.14787177741813792 -0.98900654064733051 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Insertar:3_Coincident">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>barra1:3</Uid>
+</InstancePath>
+<Position>-3 8.8817841970012523e-16 1.6999999999999997</Position>
+<Axis>-3.9284712968725934e-16 1.1102230246251568e-16 0.99999999999999956</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gripper_base:1</Uid>
+</InstancePath>
+<Position>1.9347468424988965 1.8087936077851805 8.7249999999999943</Position>
+<Axis>0.14787177741813792 -0.98900654064733051 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+<Joints>
+<Revolute name="De rotación:1">
+<BaseFrame>
+<InstancePath>
+<Uid>Base:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-0.95105651629515253 0.30901699437495089 0 0.30901699437495089 0.95105651629515253 -2.1694024351640001e-16 -1.340764440208143e-16 -1.8454039351131378e-16 -1</Rotation>
+<Translation>2.1837744350095702 -5.3837415471467907 20.5</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>Cintura:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>11.4 -1 10</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="De rotación:2">
+<BaseFrame>
+<InstancePath>
+<Uid>Cintura:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>3.3042351923367613e-15 -1 0 -1 -3.3042351923367613e-15 0 0 0 -1</Rotation>
+<Translation>11.4 14.200000000000001 0.5</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>Eslabon1:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-4.9284738411294685e-15 -1 -2.4347742188748642e-16 1 -4.9284738411294685e-15 -1.4244883911776529e-16 1.4244883911776408e-16 -2.4347742188748711e-16 1</Rotation>
+<Translation>11 -3.8639196999971492e-13 17.999999999999993</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="De rotación:3">
+<BaseFrame>
+<InstancePath>
+<Uid>Eslabon1:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-4.0144322714238746e-15 1 -2.5736958319644131e-15 1 4.014432271423873e-15 -5.6898930012039322e-16 -5.6898930012038287e-16 -2.5736958319644155e-15 -1</Rotation>
+<Translation>-11 8.143775704136751e-14 2.7478019859472599e-14</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>Eslabon2:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-1 -5.4123372450476413e-15 0 5.4123372450476413e-15 -1 3.8857805861882032e-16 0 3.8857805861882066e-16 1</Rotation>
+<Translation>-11 4.8459500301412106e-15 -8.6736173798840404e-16</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="De rotación:5">
+<BaseFrame>
+<InstancePath>
+<Uid>Eslabon2:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>1 5.4123372450476413e-15 0 -5.4123372450476413e-15 1 3.8857805861882032e-16 0 -3.8857805861882066e-16 1</Rotation>
+<Translation>11 9.5924495603120505e-15 -17.000000000000401</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>Helico:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>0.98699636783739353 0.16074255776175986 2.3253461063974811e-16 -0.16074255776175986 0.98699636783739353 -5.3365840750886755e-16 -3.1529243349195689e-16 4.8934070179477191e-16 1</Rotation>
+<Translation>-1.48049455175622 0.24111383664264802 -18</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="De rotación:6">
+<BaseFrame>
+<InstancePath>
+<Uid>gripper_base:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>2.5331570477477467e-16 3.3458926333274436e-16 -2.5331570477477467e-16 -3.3458926333274436e-16 2.5331570477477467e-16 3.3458926333274436e-16 0 0 1</Rotation>
+<Translation>-0.90658176863768314 0.5245227159805308 3.8749999999999982</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>Helico:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>2.636433061285722e-16 -0.16074255776175986 0.98699636783739353 -4.8073528874980255e-16 -0.98699636783739353 -0.16074255776175986 1 -4.3210528452344232e-16 -3.3748960547352427e-16</Rotation>
+<Translation>-0.49349818391882005 0.080371278880901606 -9.5</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="De rotación:7">
+<BaseFrame>
+<InstancePath>
+<Uid>gripper_base:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>1.9884429444623688e-16 0.98900654064733107 0.14787177741813798 0 0.14787177741813798 -0.98900654064733096 -1 2.0105457979690214e-16 0</Rotation>
+<Translation>-4.9882989420324222 0.7736911658582073 8.7249999999999979</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>barra1:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>4.75520745095673e-16 -1 -8.6495660538006064e-16 -1 -4.755207450956731e-16 1.6653345369377614e-16 -1.6653345369377656e-16 8.6495660538006054e-16 -1</Rotation>
+<Translation>-2.9999999999999973 0 1.7000000000000002</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="De rotación:10">
+<BaseFrame>
+<InstancePath>
+<Uid>Dedo_2:2</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-4.0219871451035935e-16 -1 -4.4408920985005778e-16 1 -4.0219871451035935e-16 0 0 -4.4408920985005778e-16 1</Rotation>
+<Translation>0.050399762274004611 1.0918197668595548 3.9000000000000008</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>barra1:2</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-5.6343224255602032e-16 -1 7.631454329947647e-16 -1 5.6343224255602072e-16 5.5511151231257945e-16 -5.5511151231257985e-16 -7.6314543299476441e-16 -1</Rotation>
+<Translation>-2.9999999999999973 0 0</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="De rotación:11">
+<BaseFrame>
+<InstancePath>
+<Uid>Dedo_2:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>7.7491410727352893e-16 -1 -1.6653345369377185e-16 -1 -7.7491410727352893e-16 2.159325807323262e-16 -2.1593258073232632e-16 1.6653345369377168e-16 -1</Rotation>
+<Translation>0.050399762274004611 1.0918197668595548 2.1000000000000005</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>barra1:3</Uid>
+</InstancePath>
+<Transform>
+<Rotation>1.0231859558498762e-15 1 -3.9284712968725953e-16 -1 1.0231859558498762e-15 1.1102230246251573e-16 1.1102230246251612e-16 3.9284712968725943e-16 1</Rotation>
+<Translation>2.9999999999999973 1.1021821192326167e-15 1.7000000000000002</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="De rotación:12">
+<BaseFrame>
+<InstancePath>
+<Uid>barra1:4</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-3.4520664987914937e-16 1 6.1279189427491238e-16 -1 -3.4520664987914952e-16 2.2204460492502872e-16 2.2204460492502894e-16 -6.1279189427491228e-16 1</Rotation>
+<Translation>-2.9999999999999973 0 1.7000000000000002</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>gripper_base:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>1.9884429444623688e-16 -0.98900654064733107 -0.14787177741813798 0 -0.14787177741813798 0.98900654064733096 -1 -2.0105457979690214e-16 0</Rotation>
+<Translation>2.9237533831462263 1.9566653852033171 8.7249999999999961</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+<Revolute name="De rotación:13">
+<BaseFrame>
+<InstancePath>
+<Uid>barra1:4</Uid>
+</InstancePath>
+<Transform>
+<Rotation>-3.4520664987914937e-16 1 6.1279189427491238e-16 -1 -3.4520664987914952e-16 2.2204460492502872e-16 2.2204460492502894e-16 -6.1279189427491228e-16 1</Rotation>
+<Translation>2.9999999999999973 1.1021821192326167e-15 1.7000000000000002</Translation>
+</Transform>
+</BaseFrame>
+<FollowerFrame>
+<InstancePath>
+<Uid>Dedo_2:1</Uid>
+</InstancePath>
+<Transform>
+<Rotation>7.7491410727352893e-16 -1 -1.6653345369377185e-16 -1 -7.7491410727352893e-16 2.159325807323262e-16 -2.1593258073232632e-16 1.6653345369377168e-16 -1</Rotation>
+<Translation>-0.94960023772599544 1.0918197668595555 2.1000000000000005</Translation>
+</Transform>
+</FollowerFrame>
+</Revolute>
+</Joints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="barra1.ipt" uid="barra1.ipt_{12ADC5D3-41A5-EE01-6B68-2984D2F42D7E}" version="{988D91F9-942D-264B-AD92-4ABBA2A48784}">
+<ModelUnits mass="gram" length="centimeter"/>
+<PartFile name="barra1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0083469247628886068</Mass>
+<CenterOfMass>-4.1818289832212726e-12 7.4485503517936147e-16 0.85000000000000009</CenterOfMass>
+<Inertia>0.0024691671717688673 0.029066690040460638 0.027515421784771496 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="barra1_ipt_f7f09b9c.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.16078431372549021" g="0.16078431372549021" b="0.16078431372549021" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.050000000000000003</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base.ipt" uid="Base.ipt_{4DB48909-460F-B737-7D26-97AC40A842AC}" version="{BBB6B927-8D45-77B7-26C0-86D33143A8A7}">
+<PartFile name="Base.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>6.0836759827012346</Mass>
+<CenterOfMass>2.1784928407471016 -5.4064466886286295 7.5064145883867432</CenterOfMass>
+<Inertia>372.19079848285838 372.16488884459051 322.35118477689065 -1.1059318411563581 -0.25725817502239079 -0.0063718663163162999</Inertia>
+</MassProperties>
+<GeometryFile name="Base_ipt_476bdd53.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cintura.ipt" uid="Cintura.ipt_{E5EE0E65-44FC-9D45-B3ED-8DBE818816AE}" version="{25CB7F5A-3B05-E4F7-D1C4-FF2C0195F394}">
+<PartFile name="Cintura.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.76185925144389632</Mass>
+<CenterOfMass>7.4697510831757521 5.4538245247422452 9.9999999999992752</CenterOfMass>
+<Inertia>62.572299618801274 80.6416030139236 57.522364768735045 -3.7180143408477307e-12 3.2814568839967252e-12 9.9015343710910901</Inertia>
+</MassProperties>
+<GeometryFile name="Cintura_ipt_2622114e.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Dedo_2.ipt" uid="Dedo_2.ipt_{53D7C3B5-451B-90C2-D785-4491E298EDB1}" version="{415F1EAA-74BD-56F8-7ECD-C37CCD5C3D8B}">
+<ModelUnits mass="gram" length="millimeter"/>
+<PartFile name="Dedo_2.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.0071324115611121714</Mass>
+<CenterOfMass>0.18818791372809698 -0.13884646277682491 3.0000000000007203</CenterOfMass>
+<Inertia>0.0096973920257333365 0.0082005031161980352 0.0068141173402061408 -5.7163163091900059e-15 -3.1423752488990429e-15 0.001341857257591244</Inertia>
+</MassProperties>
+<GeometryFile name="Dedo_2_ipt_c6ff7478.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.41176470588235292" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000000000001</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Eslabon1.ipt" uid="Eslabon1.ipt_{54F1D12B-4C37-9790-92B0-149A98EAF21A}" version="{B562D08F-B22F-0DC2-168E-6D9A3FC6EAAC}">
+<PartFile name="Eslabon1.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.7603253810911591</Mass>
+<CenterOfMass>3.1320479404847563 0.96208809832388098 8.500000000000119</CenterOfMass>
+<Inertia>44.549142133876451 78.970780847133256 40.904099647404493 9.8984855867456639e-11 -3.1679155654273925e-10 2.3581519448708272</Inertia>
+</MassProperties>
+<GeometryFile name="Eslabon1_ipt_22798c7e.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Eslabon2.ipt" uid="Eslabon2.ipt_{A0A173B1-403E-DCE0-612C-CC95C21C703D}" version="{E68D366F-1338-2731-BCA3-262A2006DA18}">
+<PartFile name="Eslabon2.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.62162592073545875</Mass>
+<CenterOfMass>-3.6804518177426622 0.66720190739476248 -8.500000000000524</CenterOfMass>
+<Inertia>31.970242677570205 60.608277909273546 32.492764222439291 -4.8116817197296769e-11 -1.708540366962552e-10 -1.2037388018165038</Inertia>
+</MassProperties>
+<GeometryFile name="Eslabon2_ipt_2ec927c1.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gripper_base.ipt" uid="gripper_base.ipt_{AC577CA4-41E8-F086-0B1C-D2A2458F7231}" version="{B4DECDBC-2489-6E92-D7E0-67E3CAE365ED}">
+<ModelUnits mass="gram" length="millimeter"/>
+<PartFile name="gripper_base.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.071965726286482831</Mass>
+<CenterOfMass>-0.90656239732186794 0.52456173351181368 7.216463770386734</CenterOfMass>
+<Inertia>0.24327619069855472 0.39135196671159156 0.31896729570917265 5.126292133752486e-06 1.7885241124986351e-06 -0.022642347267321769</Inertia>
+</MassProperties>
+<GeometryFile name="gripper_base_ipt_f62a0844.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Helico.ipt" uid="Helico.ipt_{82657759-4F45-4611-5795-CEBE3F29F6BE}" version="{BC054153-57D6-2252-35CA-C5DA2E24DDD5}">
+<PartFile name="Helico.ipt" type="Inventor Part"/>
+<MassProperties>
+<Mass>0.23656761302302778</Mass>
+<CenterOfMass>-2.6895168312696165 0.43801555641396495 -9.4999999550941343</CenterOfMass>
+<Inertia>6.4907632094448964 8.1942444482540449 2.2940925028028407 1.2035549957545299e-08 -2.6855987016460859e-08 0.28498846030291641</Inertia>
+</MassProperties>
+<GeometryFile name="Helico_ipt_13e29da2.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Diffuse r="0.74901960784313726" g="0.74901960784313726" b="0.74901960784313726" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.14999999999999999</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

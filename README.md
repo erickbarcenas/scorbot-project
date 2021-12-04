@@ -66,21 +66,23 @@ Se presenta el pormenor de que en la simulación de la solución analítica a pa
 
 | Iniciales  | Description |
 | ----------:| ----------- |
-Profesor
-| **PME** | Peña Medina Erik [GitHub profile](https://github.com/erickbarcenas) |
-
-Alumnos
+| **PME** | Peña Medina Erik [GitHub profile](https://github.com/ErikFiUNAM) |
 | **BMEI** | Bárcenas Martínez Erick Iván [GitHub profile](https://github.com/erickbarcenas) |
-| **RLMA** | Ruiz León Mariana Abigail [GitHub profile](https://github.com/erickbarcenas) |
-| **SM** | Sánchez Moisés  [GitHub profile](https://github.com/erickbarcenas) |
-| **VVA** | Valderrabano Vega Abraham  [GitHub profile](https://github.com/erickbarcenas) |
+| **RLMA** | Ruiz León Mariana Abigail [GitHub profile](https://github.com/marianaaruizleon) |
+| **SM** | Sánchez Moisés  [GitHub profile](https://github.com/MoY8462) |
+| **VVA** | Valderrabano Vega Abraham  [GitHub profile](https://github.com/abrahamracer) |
 
 
 ## Referencias
 
 [1]	“What is a Serial Robot?”, Easytechjunkie.com. [En línea]. Disponible en: https://www.easytechjunkie.com/what-is-a-serial-robot.htm. [Consultado: 03-dic-2021].
+
 [2]	L. Zhou, R. Li, K. P. Ng, A. Narayanamoorthy, y Z. Huang, “A robotics simulator platform for RADOE”, en 2016 2nd International Conference on Control, Automation and Robotics (ICCAR), 2016, pp. 44–48.
+
 [3]	J.-S. Moon, H. Jo, y J.-B. Song, “Deep learning-based object understanding for robotic manipulation”, en 2020 20th International Conference on Control, Automation and Systems (ICCAS), 2020, pp. 1–5.
+
 [4]	D. Mronga y F. Kirchner, “Learning context-adaptive task constraints for robotic manipulation”, Rob. Auton. Syst., vol. 141, núm. 103779, p. 103779, 2021.
+
 [5]	“Robotic manipulation : Robotics at Leeds”, Leeds.ac.uk. [En línea]. Disponible en: https://robotics.leeds.ac.uk/research/ai-for-robotics/robotic-manipulation/. [Consultado: 03-dic-2021].
+
 [6]	J. Pokojski, L. Knap, y S. Skotnicki, “Concept of a design activity supporting tool in the design and development process of cyber physical system”, Int. J. Comput. Integr. Manuf., pp. 1–19, 2021.
